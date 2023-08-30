@@ -1,0 +1,161 @@
+
+* {
+        margin: 0;
+        padding: 0;
+    
+      box-sizing: border-box;
+
+ }
+
+
+.headerinfo{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid lightgrey;
+
+}
+
+.column1 ul{ display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: space-between;}
+
+
+.column1 a{
+margin-right: 10px;
+text-decoration: none;
+color: black;
+justify-content: space-between;}
+
+.column2 ul{display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;}
+
+.column2 li{margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;}
+
+.section2{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+.searchstyle{
+display: inline-block;
+}
+
+.searchstyle form{
+display: inline-block;margin-bottom: 30px;
+border: 2px solid #BCE3C9;
+border-radius: 4px;
+max-width: 450px;
+background-color: #fff;
+width: 100%;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+position: relative;
+margin-left: 360px;
+height: 45px;
+
+}
+.icon1{
+    position: relative;
+    left: 360px;
+}
+
+.icon1 i{
+    margin-right: 10px;   
+}
+.icon1 a{
+    text-decoration: none;
+    color: black;
+}
+span{text-decoration: none;}
+.section3{
+    display: flex;
+    border-bottom: 2px solid lightgrey;
+height:93px;}
+
+.dropbtn{
+    background-color:#3bb77e;
+    color: white;
+    height: 50px;
+    margin-left: 10px;
+    border:none;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.mid{margin-bottom: 10px;
+}
+
+.mid ul{
+    display: flex;
+    list-style: none;
+
+}
+.mid a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    padding-left: 7px;}
+.mid a:hover{
+    transition: 0.3s;
+    color: #3bb77e;
+
+}
+
+    
+
+.right{position: relative;}
+
+.alo{position: absolute;
+    left: 550px;
+}
+
+
+.alo p{
+position: absolute;
+left: 50px;
+top: 1px;
+
+}
+
+.mininav{margin-top: 20px;
+padding-left: 25px;
+border-bottom: 2px solid lightgrey;
+}
+.mininav-about span{
+    font-size: 20px;
+padding-left: 17px;}
+
+.cart-container{
+    display: flex;
+    align-items: flex-start;
+
+
+
+}
+
+.cart{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px  rgba(0,0,0,0.1);
+    width: 20%;
+}
+
+
+.cart img{
+    width: 100%;
+}
+
+.cart h1{font-size: 24px;}
